@@ -10,7 +10,7 @@ function setup() {
   createCanvas(400, 400);
   noStroke();
   
-  drawBackground('🧙‍♂️');
+  drawBackground('XD');
 }
 
 function draw() {
@@ -21,9 +21,9 @@ function draw() {
     targetX = Math.random() * width;
     targetY = Math.random() * height;
     
-    // drawBackground('🧙‍♂️');
+    // drawBackground('XD');
   } else {
-    // drawBackground('🧙‍♂️');
+    // drawBackground('XD');
   }
   
   text('🐙', targetX, targetY)
@@ -66,7 +66,7 @@ function draw() {
 }
 
 function mouseClicked() {
-  drawBackground('🧙‍♂️');
+  drawBackground('XD');
 }
 
 function drawBackground(backgroundText) {
